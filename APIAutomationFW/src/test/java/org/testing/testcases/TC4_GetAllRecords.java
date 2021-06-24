@@ -25,6 +25,7 @@ JsonPath jp=  res.jsonPath();
 String ids = jp.get("id");
 	//String ids = JsonParsingUsingOrgJson.jsonParse(res.asString(), "id");
 	System.out.println("response are"+res.asString());
-	System.out.println("ids are"+ids);
+	//System.out.println("ids are"+ids);
+	
 	}
 }
